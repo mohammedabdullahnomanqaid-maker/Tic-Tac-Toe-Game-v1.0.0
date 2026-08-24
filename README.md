@@ -25,7 +25,7 @@ The system focuses heavily on automated state evaluation, clean event routing, a
 ---
 ##  📸 <a id="screenshots"></a>Screenshots
 
-## 📸 Screenshots
+
 
 <details>
 <summary><strong>View Screenshots</strong></summary>
