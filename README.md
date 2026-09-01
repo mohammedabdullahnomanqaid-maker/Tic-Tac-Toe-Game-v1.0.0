@@ -1,65 +1,167 @@
-# 💬 Tic-Tac-Toe-Game (v1.0.0)
-«A polished X-O game built with C# and WinForms, featuring robust game logic implementation, event handling, and a clean modern user interface.»
----
-## 📑 Table of Contents
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Screenshots](#screenshots)
-- [Architecture & Design](#architecture--design)
-- [Technologies](#technologies)
-- [Acknowledgments](#acknowledgments)
-- [License](#license)
-- [Author](#author)
----
-## <a id="overview"></a>Overview
-Tic-Tac-Toe-Game (v1.0.0) is a refined desktop implementation of the classic X-O game developed in C# and WinForms. Conceived as a hands-on project to master game logic architecture and user interface state management, the application translates core programmatic concepts into an interactive, seamless gaming experience. 
-The system focuses heavily on automated state evaluation, clean event routing, and providing a responsive, visually engaging environment.
----
-## <a id="key-features"></a>Key Features
-### 🧠 Smart Logic
-- **Automated Winner Detection:** Implements rigorous game state evaluation to instantly identify winning combinations, track player turns, and manage round conclusions.
-### 🎨 Modern UI
-- **Refined Aesthetics:** Features a clean, balanced color palette, custom icons, and visual themes designed to enhance the overall user experience.
-### ⚡ Smooth UX
-- **Seamless Gameplay:** Provides instant-reset functionality and responsive event binding to ensure uninterrupted interaction and fluid performance.
----
-##  📸 <a id="screenshots"></a>Screenshots
+# 🎮 Tic-Tac-Toe Game — v1.0.0
 
+<p align="center">
+  <img src="Screenshots/Before-Start.png" alt="Tic-Tac-Toe Dashboard" width="900">
+</p>
 
+<h3 align="center">Classic X-O Game • C# • Windows Forms</h3>
+
+<p align="center">
+  A desktop implementation of the classic Tic-Tac-Toe game.
+</p>
+
+---
+
+## 📋 Table of Contents
+
+- [Overview](#-overview)
+- [Key Features](#-key-features)
+- [Screenshots](#-screenshots)
+- [Technologies](#-technologies)
+- [Project Structure](#-project-structure)
+- [Project Timeline](#-project-timeline)
+- [Version](#-version)
+- [Acknowledgments](#-acknowledgments)
+- [License](#-license)
+- [Author](#-author)
+
+---
+
+## 📌 Overview
+
+**Tic-Tac-Toe Game v1.0.0** is a desktop implementation of the classic **X-O game**, developed using **C# and Windows Forms**.
+
+The project focuses on implementing the game logic, handling player turns, detecting winning combinations, and managing the game state through an interactive graphical interface.
+
+It was developed as a practical C# Windows Forms project, combining programming logic with an interactive desktop user interface.
+
+---
+
+## ✨ Key Features
+
+### 🧠 Game Logic
+
+- Automatic winner detection.
+- Player turn management.
+- Detection of winning combinations.
+- Game state handling.
+- Handling of completed rounds.
+
+### 🎨 User Interface
+
+- Clean Windows Forms interface.
+- Custom application icon.
+- Clear game board presentation.
+- Visual feedback during gameplay.
+
+### 🔄 Game Reset
+
+- Ability to reset the game and start a new round.
+
+---
+
+## 📸 Screenshots
 
 <details>
-<summary><strong>View Screenshots</strong></summary>
+<summary>🖥️ Dashboard — Before Start</summary>
 
 <br>
 
-### 🖥️ Before Start
+<p align="center">
+  <img src="Screenshots/Before-Start.png" alt="Tic-Tac-Toe Dashboard" width="900">
+</p>
 
-<img src="Screenshots/Before-Start.png" alt="Before Start" width="800">
+</details>
 
-### 🏆 Win
+<details>
+<summary>🏆 Win Result</summary>
 
-<img src="Screenshots/Win.png" alt="Win" width="800">
+<br>
+
+<p align="center">
+  <img src="Screenshots/Win.png" alt="Tic-Tac-Toe Win Result" width="900">
+</p>
 
 </details>
 
 ---
 
-## <a id="architecture--design"></a>Architecture & Design
-- **Logic-Centric Structure:** Designed with modular event handling and structured state management to ensure clean code separation, maintainability, and precise control over user interactions.
----
-## <a id="technologies"></a>Technologies
+## 🛠️ Technologies
 
 | Technology | Purpose |
-| :--- | :--- |
+|---|---|
 | **C#** | Core programming language |
-| **.NET WinForms** | Desktop UI framework environment |
+| **.NET WinForms** | Desktop user interface |
+| **Visual Studio** | Development environment |
 
 ---
-## <a id="acknowledgments"></a>Acknowledgments
-Special thanks to Dr. Mohammed Abu-Hadhoud; his curriculum and educational methodology served as a vital guide throughout this project and the broader programming learning journey.
+
+## 📁 Project Structure
+
+    Tic-Tac-Toe-Game-v1.0.0/
+    │
+    ├── Properties/
+    │
+    ├── Resources/
+    │
+    ├── Screenshots/
+    │   ├── Before-Start.png
+    │   └── Win.png
+    │
+    ├── App.config
+    │
+    ├── Form1.cs
+    ├── Form1.Designer.cs
+    ├── Form1.resx
+    │
+    ├── Program.cs
+    │
+    ├── Project_tic_tac_toe.csproj
+    ├── Project_tic_tac_toe.sln
+    │
+    ├── XOico.ico
+    └── README.md
+
 ---
-## <a id="license"></a>License
-This project is open-source and available under the **MIT License**. You are free to use, modify, and distribute it in any way you choose, provided that proper copyright and attribution to the original author are maintained.
+
+## 📅 Project Timeline
+
+| Milestone | Date |
+|---|---|
+| 🚀 **Start Date** | 2026/02/28 |
+| 🏁 **End Date** | 2026/03/01 |
+| ⏱️ **Duration** | 2 Days |
+
 ---
-## <a id="author"></a>Author
-- **Developer:** Mohammed Abdullah Noman Qaid Mohammed 
+
+## 📦 Version
+
+**v1.0.0**
+
+---
+
+## 🙏 Acknowledgments
+
+Special thanks to **Dr. Mohammed Abu-Hadhoud** for his educational curriculum and methodology, which served as a valuable guide throughout the learning journey and project development.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+
+You are free to use, modify, and distribute the project, provided that proper copyright and attribution to the original author are maintained.
+
+---
+
+## 👨‍💻 Author
+
+**Mohammed Abdullah Noman Qaid Mohammed**
+
+---
+
+<p align="center">
+  🎮 <strong>Tic-Tac-Toe Game v1.0.0</strong>
+  <br>
+  <sub>Built with C# & Windows Forms</sub>
+</p>
